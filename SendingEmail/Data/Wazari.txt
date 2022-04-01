@@ -1,0 +1,71 @@
+
+-------------------POUR L'Ancienne solution---------------------------
+-Clonner WAZARI le projet sur git AZURE
+---------------Visual Studio-------------------------------
+-Ouvrir la solution du projet dans le dossier wazari_full/src/wazari/: AA.wazari.sln avec Visual Studio
+-Aller dans le menu outils, paramètres, chercher package source et creer un nouveau en utilisant comme nom:
+AA et comme Url source: https://pkgs.dev.azure.com/activeassurances-dev/_packaging/ActiveAssurancesNuget/nuget/v3/index.json
+-NB(c'est la source des packages qu'il faut utiliser: si l'URL ne fonctionne pas demander l'accès à Yann Isly ).
+-Aller dans NugetPackages puis installer le package Azurite pour le projet en entier
+-Aller dans le projet AA.Wazari.WebApi, dans appsetting.local.json:
+	*Ajouter la ligne suivante dans ConnectionString dans Wazaricontext remplacer:
+	"WazariContext": "Server=localhost;Database=wazari-local;Integrated Security=true",
+	par : "WazariContext":"Data Source=rec.afiassurances.fr;Initial Catalog=wazari-local;User ID=dbadminafi;Password=12*Gui-Afi$2021"
+-OUVRIR ligne de commande dans VS: installer le package azurite : npm install -g azurite
+-puis lancer azurite en ligne de commende: --silent --location c:\azurite --debug c:\azurite\debug.log
+-Puis Rebuilder tout le projet
+-Si Azurite ne fonctionne pas lancer Azure Storage Emulator depuis menu démarrer
+-Lancer le projet Wazari.WebApi
+
+------------------------------------------------------------------
+--------------------------------Angular---------------------------
+Dans Visual Studio Code : Ouvri le dossier Wazari_Full/src/Wazari/AA.Wazari.Front
+C'est la partie Front Angular du projet:
+-Lancer dans une ligne de commande cmd : 
+	*pour le gestion :npm run app-gestion:serve
+	*pour le courtier(broker) : npm run app-courtier:serve
+	*pour le client : npm run app-client:serve
+-le login: admin, admin
+-"Broker" c'est l'espace Courtier
+
+----------------Pour la nouvelle solution--------------------------------------------
+-------------Faire de même qu'avec l'ancienne 
+-----Dans visual studio aller dans le projet-006 Web layer/Properties/launchSettings.jsonj:
+-commenter toutes les lignes et coller les lignes suivantes:
+{
+"iisSettings": {
+"windowsAuthentication": false,
+"anonymousAuthentication": true,
+"iisExpress": {
+"applicationUrl": "http://localhost:61403/",
+"sslPort": 44325
+}
+},
+"profiles": {
+"IIS Express": {
+"commandName": "IISExpress",
+"launchBrowser": true,
+"environmentVariables": {
+"ASPNETCORE_ENVIRONMENT": "Development"
+}
+},
+"AA.Wazari.WebApi": {
+"commandName": "Project",
+"launchBrowser": true,
+"environmentVariables": {
+"ASPNETCORE_ENVIRONMENT": "Local"
+},
+"applicationUrl": "https://localhost:5001;http://localhost:5000"
+}
+}
+}
+
+-Enregistrer et Rebuilder le Projet
+
+********Aller dans paramètres => système => variable d'envionnement
+-tout en haut cliquer sur nouvelle variable=>metter comme nom :ASPNETCORE_ENVIRONMENT et comme variable :Local
+
+
+
+
+	

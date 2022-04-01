@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\accueil.html" />
+    <None Remove="Data\EmailTemplate.html" />
+    <None Remove="Data\Wazari.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\accueil.html" />
+    <EmbeddedResource Include="Data\EmailTemplate.html" />
+    <EmbeddedResource Include="Data\Wazari.txt" />
+  </ItemGroup>
+
+</Project>

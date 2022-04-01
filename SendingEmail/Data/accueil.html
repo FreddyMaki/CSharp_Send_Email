@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>Meilleurtauxsante.com</title>
+    <style>
+
+    .fondcolor {
+        background-color: #F6F7FB;
+    }
+
+    @media only screen {
+        html {
+            min-height: 100%;
+            background: #fff
+        }
+    }
+    
+    @media only screen and (max-width:620px) {
+                  .imgResp {
+                            max-width: 100% !important;
+                            height: auto !important;
+                    } 
+                  .bt_width {
+                        white-space: nowrap;
+                    } 
+        table.body {
+            width: 100%!important
+        }
+        table.body .td-side{
+            display: none!important;
+        }
+        .small-float-center {
+            margin: 0 auto!important;
+            float: none!important;
+            text-align: center!important
+        }
+        .small-text-center {
+            text-align: center!important
+        }
+        .small-text-left {
+            text-align: left!important
+        }
+        .small-text-right {
+            text-align: right!important
+        }
+        .hide-for-large {
+            display: block!important;
+            width: auto!important;
+            overflow: visible!important;
+            max-height: none!important;
+            font-size: inherit!important;
+            line-height: inherit!important
+        }
+        table.body table.container .hide-for-large,
+        table.body table.container .row.hide-for-large {
+            display: table!important;
+            width: 100%!important
+        }
+        table.body table.container .callout-inner.hide-for-large {
+            display: table-cell!important;
+            width: 100%!important
+        }
+        table.body table.container .show-for-large {
+            display: none!important;
+            width: 0;
+            mso-hide: all;
+            overflow: hidden
+        }
+        table.body img {
+            width: auto;
+            height: auto
+        }
+        table.body center {
+            min-width: 0!important
+        }
+        table.body .container {
+            width: 95%!important
+        }
+        table.body .column,
+        table.body .columns {
+            height: auto!important;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding-left: 16px!important;
+            padding-right: 16px!important
+        }
+        table.body .column .column,
+        table.body .column .columns,
+        table.body .columns .column,
+        table.body .columns .columns {
+            padding-left: 0!important;
+            padding-right: 0!important
+        }
+        table.body .collapse .column,
+        table.body .collapse .columns {
+            padding-left: 0!important;
+            padding-right: 0!important
+        }
+        td.small-1,
+        th.small-1 {
+            display: inline-block!important;
+            width: 8.33333%!important
+        }
+        td.small-2,
+        th.small-2 {
+            display: inline-block!important;
+            width: 16.66667%!important
+        }
+        td.small-3,
+        th.small-3 {
+            display: inline-block!important;
+            width: 25%!important
+        }
+        td.small-4,
+        th.small-4 {
+            display: inline-block!important;
+            width: 33.33333%!important
+        }
+        td.small-5,
+        th.small-5 {
+            display: inline-block!important;
+            width: 41.66667%!important
+        }
+        td.small-6,
+        th.small-6 {
+            display: inline-block!important;
+            width: 50%!important
+        }
+        td.small-7,
+        th.small-7 {
+            display: inline-block!important;
+            width: 58.33333%!important
+        }
+        td.small-8,
+        th.small-8 {
+            display: inline-block!important;
+            width: 66.66667%!important
+        }
+        td.small-9,
+        th.small-9 {
+            display: inline-block!important;
+            width: 75%!important
+        }
+        td.small-10,
+        th.small-10 {
+            display: inline-block!important;
+            width: 83.33333%!important
+        }
+        td.small-11,
+        th.small-11 {
+            display: inline-block!important;
+            width: 91.66667%!important
+        }
+        td.small-12,
+        th.small-12 {
+            display: inline-block!important;
+            width: 100%!important
+        }
+        .column td.small-12,
+        .column th.small-12,
+        .columns td.small-12,
+        .columns th.small-12 {
+            display: block!important;
+            width: 100%!important
+        }
+        table.body td.small-offset-1,
+        table.body th.small-offset-1 {
+            margin-left: 8.33333%!important;
+            Margin-left: 8.33333%!important
+        }
+        table.body td.small-offset-2,
+        table.body th.small-offset-2 {
+            margin-left: 16.66667%!important;
+            Margin-left: 16.66667%!important
+        }
+        table.body td.small-offset-3,
+        table.body th.small-offset-3 {
+            margin-left: 25%!important;
+            Margin-left: 25%!important
+        }
+        table.body td.small-offset-4,
+        table.body th.small-offset-4 {
+            margin-left: 33.33333%!important;
+            Margin-left: 33.33333%!important
+        }
+        table.body td.small-offset-5,
+        table.body th.small-offset-5 {
+            margin-left: 41.66667%!important;
+            Margin-left: 41.66667%!important
+        }
+        table.body td.small-offset-6,
+        table.body th.small-offset-6 {
+            margin-left: 50%!important;
+            Margin-left: 50%!important
+        }
+        table.body td.small-offset-7,
+        table.body th.small-offset-7 {
+            margin-left: 58.33333%!important;
+            Margin-left: 58.33333%!important
+        }
+        table.body td.small-offset-8,
+        table.body th.small-offset-8 {
+            margin-left: 66.66667%!important;
+            Margin-left: 66.66667%!important
+        }
+        table.body td.small-offset-9,
+        table.body th.small-offset-9 {
+            margin-left: 75%!important;
+            Margin-left: 75%!important
+        }
+        table.body td.small-offset-10,
+        table.body th.small-offset-10 {
+            margin-left: 83.33333%!important;
+            Margin-left: 83.33333%!important
+        }
+        table.body td.small-offset-11,
+        table.body th.small-offset-11 {
+            margin-left: 91.66667%!important;
+            Margin-left: 91.66667%!important
+        }
+        table.body table.columns td.expander,
+        table.body table.columns th.expander {
+            display: none!important
+        }
+        table.body .right-text-pad,
+        table.body .text-pad-right {
+            padding-left: 10px!important
+        }
+        table.body .left-text-pad,
+        table.body .text-pad-left {
+            padding-right: 10px!important
+        }
+        table.menu {
+            width: 100%!important
+        }
+        table.menu td,
+        table.menu th {
+            width: auto!important;
+            display: inline-block!important
+        }
+        table.menu.small-vertical td,
+        table.menu.small-vertical th,
+        table.menu.vertical td,
+        table.menu.vertical th {
+            display: block!important
+        }
+        table.menu[align=center] {
+            width: auto!important
+        }
+        table.button.small-expand,
+        table.button.small-expanded {
+            width: 100%!important
+        }
+        table.button.small-expand table,
+        table.button.small-expanded table {
+            width: 100%
+        }
+        table.button.small-expand table a,
+        table.button.small-expanded table a {
+            text-align: center!important;
+            width: 100%!important;
+            padding-left: 0!important;
+            padding-right: 0!important
+        }
+        table.button.small-expand center,
+        table.button.small-expanded center {
+            min-width: 0
+        }
+        .heading__logo img {
+            width: 260px!important
+        }
+        .slash-title {
+            font-size: 22px!important
+        }
+        .slash-title img {
+            display: none!important
+        }
+        .title {
+            font-size: 23px!important;
+            hyphens: none!important
+        }
+        .partners th.large-6 {
+            padding-left: 0!important;
+            padding-right: 0!important
+        }
+        .video td {
+            display: inline-block!important;
+            width: 100%!important
+        }
+        .video__desc {
+            padding: 0!important
+        }
+        .video__desc p {
+            padding: 20px!important
+        }
+        .video td.video__dash {
+            display: none!important
+        }
+        table.body td .top-mail-alert{
+            height: auto !important;
+        }
+    }
+    
+    @media only screen and (max-width:520px) {
+                  .noResp {
+                            display: none !important;
+                    }
+                  .mobile_center {
+                            display: block !important;
+                        margin:0 auto 15px !important;
+                    } 
+                  .bt_width {
+                            display: block !important;
+                            width: 90% !important;
+                    } 
+                
+        .push__txt {
+            font-size: 18px!important
+        }
+        .push__border {
+            width: 7.4%!important
+        }
+        .eco__title {
+            font-size: 22px!important;
+                            text-align: center!important;
+        }
+        .eco__title p{
+            font-size: 22px!important;
+                            text-align: center!important;
+        }
+        .eco__title strong {
+            font-size: 30px!important;
+        }
+        
+        .eco p {
+            font-size: 18px!important
+        }
+                    
+                    
+        #meaBgTd p{
+            width:100%!important;
+        }
+
+        table.body .text-titre{
+            font-size: 23px !important;
+        }
+        table.body .text-prix{
+            font-size: 29px !important;
+        }
+        table.body .img-create-pass{
+            width: 290px!important;
+            height: auto !important;
+        }
+        table.body .txt-yellow{
+            font-size:18px!important;
+        }
+
+    }
+    
+    
+    @media only screen and (max-width:480px) {
+        .eco__bg {
+            height: 300px!important
+        }
+        .eco__title {
+            font-size: 23px!important
+        }
+        .eco__title strong {
+            font-size: 22px!important
+        }
+        .eco p {
+            font-size: 13px!important
+        }
+        .eco p br {
+            display: none!important
+        }
+    }
+    
+    @media only screen and (max-width:420px) {
+        .push__txt {
+            font-size: 14px!important
+        }
+    }
+    
+    @media only screen and (max-width:360px) {
+        .push__txt {
+            font-size: 12px!important
+        }
+    }
+    
+
+        .fondcolor{
+            background-color: #F2F5FF;
+        }
+
+    </style>
+</head>
+<body class="fondcolor" bgcolor="#F2F5FF" style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:border-box;color:#000;font-family: Poppins, Verdana, Arial Helvetica,sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #d6d6d6;">
+        <tbody>
+            <tr>
+                <td height="30">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="body" border="0" cellspacing="0" cellpadding="0" bgcolor="#F2F5FF" style="width:100%; background-color: #d6d6d6;">
+        <tbody>
+            <tr>
+                <td align="center">
+                    <table class="container" width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px; margin: 0 auto; color:#000000; font-family: Poppins, Verdana, Arial 'Helvetica Neue', Helvetica, sans-serif; font-size:16px;">
+                        <tr>
+                            <td style="background-color: #F2F5FF;">
+                              
+                                <div class="heading__logo" width="100%" align="center" style="text-align:center; background-color: #ffffff; line-height: 0px ; font-size: 0px;">
+                                    <a href="https://www.meilleurtaux.com/?IDAPPORTEUR=&utm_source=&utm_medium=&utm_campaign=&utm_content=#xtor=-[]--[Pre_header]" target="_blank">
+                                        <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/Logo_MTX.svg"  height="34"  alt="Meilleurtaux.com" class="heading__logo" style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:auto;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:200px;padding:15px 0; ">
+                                    </a>
+                                </div>
+                                <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto; width: 100%; ">
+                                    <tr>
+                                        <td height="50"  style="background-color: #F2F5FF;">
+                                            <table style="margin:20px; width: 558px; background-color: #fff; padding: 20px; border-radius: 25px; " >
+                                               <tr>
+												   <td>
+													   <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/demande-devis-recumtxs.png"  height="34" alt="image bienvenue"  style="clear:both;display:block;height:auto;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:100% ; ">
+                                                    </td>
+												</tr>
+                                                <tr>
+                                                    <td style="color: #008D93; font-family: Poppins, verdana, arial, calibri; font-style: normal ;font-weight: 700; font-size: 18px; line-height: 26px; ">
+                                                        Civilit&eacute; {UserName} {Name},
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-top:15px;">
+												    Suite à votre demande de devis par internet, j’aurai le plaisir de vous accompagner et de vous conseiller pour vous proposer notre meilleure offre mutuelle sant&eacute;, adapt&eacute;e à vos besoins et votre budget. </td>
+                                                </tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+                                <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin:  auto; width: 100%; padding: 20px 20px 0;">
+                                    <tr style="text-align: center; background: linear-gradient(269.6deg, #008D93 -44.95%, #0AD6E0 113%);">
+                                        <td style="border-radius: 25px 25px 0 0;color: white; padding: 18px 0; font-weight: 700; font-size:27px; line-height: 36px; width: 100%;">
+											Comment allons-nous proc&eacute;der ?
+										</td>
+									</tr>
+								</table>
+								<table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin:  auto; width: 100%; padding: 0 20px;">
+                                    <tr style="background-color: #fff;">
+                                       <td style="border-radius:  0  0 25px 25px ;">
+                                        <table  style="text-align: center; padding:24px; margin: 0 auto;">
+                                            <tr>
+                                                <td align="center" style="background: white; height: 3em; width: 145px;">
+                                                    <table>
+                                                        <tr>
+                                                            <td style="background: #F3FDFD; padding: 20px 30px 16px ; border-radius: 20.88px;">
+                                                                <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/1.svg" alt="" />
+                                                            </td>
+                                                        </tr>
+                                                    </table> 
+                                                </td>
+
+                                                <td>
+                                                    <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/rightArrow.svg" alt="" />
+                                                </td>
+
+                                                <td align="center" style="background: white; height: 3em;  width: 145px;  ">
+                                                    <table>
+                                                        <tr>
+                                                            <td style="background: #F3FDFD; padding: 20px 30px 16px ; border-radius: 20.88px;">
+                                                                <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/2.svg" alt="" />
+                                                            </td>
+                                                        </tr>
+                                                    </table> 
+                                                </td>
+                                                <td>
+                                                    <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/rightArrow.svg" alt="" />
+                                                </td>
+
+                                                <td align="center" style="background: white; height: 3em;  width: 145px; ">
+                                                    <table>
+                                                        <tr>
+                                                            <td style="background: #F3FDFD; padding: 20px 30px 16px ; border-radius: 20.88px;">
+                                                                <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/3.svg" alt="" />
+                                                            </td>
+                                                        </tr>
+                                                    </table> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style=" width: 30%; padding-top: 15px; padding-bottom: 15px; font-weight: 700; font-size: 15px; line-height: 20px;  vertical-align: initial;">
+                                                    Premier contact recueil de vos besoins
+                                                </td>
+                                                <td></td>
+                                                <td style="width: 30%; padding-top: 15px;   padding-bottom: 15px;  font-weight: 700; font-size: 15px; line-height: 20px; vertical-align: initial; ">
+                                                    Analyse de vos besoins et devis personnalis&eacute;
+                                                </td>
+                                                <td></td>
+                                                <td style="width: 30%;  padding-top: 15px;  padding-bottom: 15px; font-weight: 700; font-size: 15px; line-height: 20px; vertical-align: initial;">
+                                                    Accompagnement et conseil
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-weight: 400;font-size: 14px;line-height: 18px; color: #4D4D4D; padding-bottom: 10px; vertical-align: initial;">
+                                                  Je vous appelle dans les 48h pour recueillir vos besoins en frais de sant&eacute;.
+                                              </td>
+                                                <td></td>
+                                                <td style="font-weight: 400;font-size: 14px;line-height: 18px; color: #4D4D4D;  padding-bottom: 10px; vertical-align: initial;" >
+                                                  Je vous envoie par email un devis gratuit personnalis&eacute; et sans engagement.
+                                              </td>
+                                                <td></td>
+
+                                                <td style="font-weight: 400;font-size: 14px;line-height: 18px; color: #4D4D4D; padding-bottom: 10px; vertical-align: initial;">
+                                                  Une fois votre contrat sign&eacute;, je serai là pour vous conseiller tout au long de la vie de votre contrat.
+                                              </td>
+                                            </tr>
+                                        
+                                        </table>
+                                       </td>
+                                    </tr>
+                                </table>
+
+ <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin:  auto; width: 100%; padding: 20px 20px 0 ;">
+                                    <tr style="  text-align: center; background: linear-gradient(269.6deg, #008D93 -44.95%, #0AD6E0 113%); ">
+                                        <td style=" border-radius: 25px 25px 0 0 ; color: white; padding: 18px 0; font-weight: 700; font-size:27px; line-height: 36px; width: 100%; ">
+                                            Pour nous contacter
+                                       </td>
+                                      
+                                    </tr>
+                                </table>
+                                <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin:  auto; width: 100%; padding: 0 20px;">
+                                    <tr style="background-color: #fff;">
+                                        <td style="border-radius: 0 0 25px 25px;">
+                                            <table>
+                                                <tr>
+                                                    <td style=" padding: 24px 24px 0;">
+                                                  Pour vous apporter une meilleure qualit&eacute; de service et pour r&eacute;pondre toujours mieux à vos besoins, je suis à votre disposition. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table style="text-align: center; padding:  0 24px;">
+                                                            <tr>
+<!--
+                                                                <td align="center" style="background: white; height: 3em; ">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td style="background: #D9EEEF; padding: 20px 20px 16px ; border-radius: 20.88px;">
+                                                                                <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/Calendar.svg" alt="" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table> 
+                                                                </td>
+-->
+                                                                <td align="center" style="background: white; height: 3em; padding-left: 15px;  ">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td style="background: #D9EEEF; padding: 20px 20px 16px ; border-radius: 20.88px;"><a href="tel:+33183775730">
+                                                                                <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/incoming call.svg" alt="" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table> 
+                                                                </td>
+																<td width="5%"></td>
+                                                                <td align="center" style="background: white; height: 3em;  padding-left: 15px;">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td style="background: #D9EEEF;  padding: 20px 20px 16px; border-radius: 20.88px;"><a href="#" style="text-decoration: none; color:#FFF;">
+                                                                                <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/laptop.svg" alt="" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table> 
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="">
+<!--
+                                                                <td style=" padding-top: 15px; padding-bottom: 15px; font-weight: 700; font-size: 15px; line-height: 22px; ">
+                                                                    Sur rendez-vous
+                                                                </td>
+-->
+                                                                <td style="padding-top: 15px;  padding-left: 15px;  padding-bottom: 15px;  font-weight: 700; font-size: 15px; line-height: 22px;  "><a href="tel:+33183775730" style="text-decoration: none; color:black;">
+                                                                    Par t&eacute;l&eacute;phone</a>
+                                                                </td>
+																<td width="5%"></td>
+                                                                <td style="padding-top: 15px; padding-left: 15px;  padding-bottom: 15px; font-weight: 700; font-size: 15px; line-height: 22px;"><a href="#" style="text-decoration: none; color:black;">En ligne</a>
+                                                                </td>
+															</tr>
+                                                            <tr>
+<!--
+                                                                <td style="font-weight: 400;font-size: 14px;line-height: 18px; color: #4D4D4D; ">
+                                                                    Je vous recontacte dans la plage horaire qui vous convient. Choisissez !
+                                                                </td>
+-->
+                                                                <td style="font-weight: 400;font-size: 14px;line-height: 18px; color: #4D4D4D;  padding-left: 15px; width:40%" ><a href="tel:+33183775730" style="text-decoration: none; color:#4D4D4D;">
+                                                                    Contactez-moi au 01&nbsp;83&nbsp;77&nbsp;57&nbsp;30 du lundi au vendredi de 9h à 19h.</a>
+                                                                </td>
+																<td style="width:5%"></td>
+                                                                <td style="font-weight: 400;font-size: 14px;line-height: 18px; color: #4D4D4D;  padding-left: 15px; width:40%"><a href="#" style="text-decoration: none; color:#4D4D4D;">
+                                                                    S&eacute;lectionnez la formule qui vous convient et souscrivez en ligne.</a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+<!--
+                                                                <td>
+                                                                    <button style=" margin:24px 0 ; padding: 4px 20px ;border-radius: 8px; background: linear-gradient(231.74deg, #FF6713 -26.89%, #FF9B00 64.63%); border: none; color: white; font-weight: 600; font-size: 14px; line-height: 24px;  ">
+                                                                         Rappelez-moi
+                                                                    </button>
+                                                                </td>
+-->
+                                                                <td style="padding-left : 15px;">
+                                                                    <button style=" margin:24px 0 ; padding: 4px 24px ;border-radius: 8px; background: linear-gradient(231.74deg, #FF6713 -26.89%, #FF9B00 64.63%); border: none; color: white; font-weight: 600; font-size: 14px; line-height: 24px; "><a href="tel:+33183775730" style="text-decoration: none; color:#fff;">
+																		J'appelle</a>
+                                                                    </button>
+                                                                </td>
+																<td width="5%"></td>
+                                                                <td style="padding-left : 15px;">
+                                                                    <button style=" margin:24px 0 ; padding: 4px 24px ;border-radius: 8px; background: linear-gradient(231.74deg, #FF6713 -26.89%, #FF9B00 64.63%); border: none; color: white; font-weight: 600; font-size: 14px; line-height: 24px;  "><a href="#" style="text-decoration: none; color:#fff;">
+																		Je souscris</a>
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                          
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                              
+
+
+
+
+                                <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin: auto; width: 100%; padding: 20px 20px 0 ;">
+                                    <tr style="  text-align: center; background: linear-gradient(269.6deg, #008D93 -44.95%, #0AD6E0 113%); ">
+                                        <td style=" border-radius: 25px 25px 0 0 ; color: white; padding: 18px 0; font-weight: 700; font-size:27px; line-height: 36px; width: 100%; ">
+                                          Pourquoi choisir Meilleurtaux Santé ?
+                                     </td>
+                                    </tr>
+                                </table>
+								<table height="353" border="0" cellpadding="0" cellspacing="0" class="spacer" style="margin:auto; width: 100%; padding: 0 20px;">
+                                    <tr style="text-align: center; background-color: #fff;">
+                                       <td height="161">
+                                            <table>
+                                                <tr>
+                                                    <td style="width:33%;">
+                                                        <table>
+                                                            <tr>
+																<td style="padding-top:15px; vertical-align: initial;"> 
+                                                                    <span style="font-size:2em; font-weight: bold; color:#008D93">1<br></span>accompagnement personnalis&eacute;
+																</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td style="width: 34%;">
+                                                        <table>
+															<tr>
+                                                                <td style="padding-top:15px; vertical-align: initial;">
+                                                                    <span style="font-size:2em; font-weight: bold; color:#008D93">20%<br></span>d'économie sur votre contrat santé
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+													<td style="width: 33%;">
+                                                        <table>
+															<tr>
+                                                                <td style="padding-top:15px; vertical-align: initial;"><span style="font-size:2em; font-weight: bold; color:#008D93">0€</span><br>
+                                                                   pour la résiliation de pr&eacute;c&eacute;dent contrat
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+												</tr>
+                                            </table>
+                                       </td>
+                                    </tr>
+                                    <tr style="text-align: center; background-color: #fff;">
+                                        <td height="191" style="border-radius: 0 0 25px 25px;">
+                                            <table>
+                                                <tr>
+                                                    <td style="padding: 20px;">
+                                                      <table>
+														  <tr>
+															  <td style="padding-top:15px; vertical-align: initial;"> Des<br> remboursements sous<br>
+                                                                  <span style="font-size:2em; font-weight: bold; color:#008D93">48 H</span></td>
+														  </tr>
+														</table>
+													</td>
+													<td style="padding: 15px;">
+														<table>
+															<td style="padding-top:15px; vertical-align: initial;"> 
+                                                                    Service <br>assistance disponible<br><span style="font-size:1.8em; font-weight: bold; color:#008D93">24/24</span>
+                                                                </td>
+														</table>
+                                                    </td>
+													<td style="padding: 20px;">
+                                                        <table>
+                                                            <tr>
+																<td style="padding-top:15px; vertical-align: initial;">
+																Vos besoins pris <br>en charge à<br><span style="font-size:2em; font-weight: bold; color:#008D93">100%</span>
+                                                                </td>
+                                                            </tr>
+														</table>
+                                                    </td>
+												</tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+								</table>
+  <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin:  auto; width: 100%; padding: 20px 20px 0 ;">
+                                    <tr style="  text-align: center;background: linear-gradient(231.74deg, #FF6713 -26.89%, #FF9B00 64.63%); ">
+                                        <td style=" border-radius: 25px 25px 0 0 ; color: white; padding: 18px 0; font-weight: 700; font-size:27px; line-height: 36px; width: 100%; ">
+                                            Qui sommes-nous ?
+                                       </td>
+                                    </tr>
+                                </table>
+
+                                <table class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin: auto; width: 100%; padding: 0 20px;">
+                                    <tr style="background-color:#fff;">
+                                       <td style=" border-radius:  0  0 25px 25px ; padding: 15px 25px; text-align: justify">
+                                       <strong>Meilleurtaux Sant&eacute;</strong> c’est l’exp&eacute;rience en comparaison d’assurance du groupe « Meilleurtaux » alli&eacute; au savoir-faire d’un <strong>courtier sp&eacute;cialis&eacute; </strong>en mutuelle sant&eacute; depuis plus de 26 ans. Nous s&eacute;lectionnons en fonction de vos besoins et de votre budget <strong>le contrat le plus int&eacute;ressant</strong> pour vous <strong>parmi plus de 200 formules</strong> aupr&egrave;s de nos partenaires mutuelles et compagnies.&nbsp;</td>
+                                    </tr>
+                                </table>
+
+                               
+
+
+
+                                <table  class="spacer" border="0" cellspacing="0" cellpadding="0" style="margin:  auto; width: 100%; padding: 25px; font-weight: 400;font-size: 17px;line-height: 26px; ">
+                                    <tr>
+                                        <td> 
+                                            En esp&eacute;rant vous compter tr&egrave;s prochainement parmi nos futurs clients, je reste à votre disposition pour tout renseignement compl&eacute;mentaire. 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top: 25px;">
+                                            Cordialement,
+                                        </td>
+                                    </tr>
+                                    <tr style="font-weight: 700;font-size: 18px; line-height: 24px;text-align: right;">
+                                        <td style="padding-top:25px ;">
+                                            Typhaine FEUILLU 
+                                        </td>
+                                    </tr>
+                                    <tr style="font-weight: 400;font-size: 18px; line-height: 24px;text-align: right;">
+                                        <td>
+                                            Votre conseiller mutuelle sant&eacute;
+                                        </td>
+                                    </tr>
+                                    <tr style="font-weight: 400;font-size: 18px; line-height: 24px;text-align: right; color:#008D93">
+                                        <td> <a href="mailto:
+                                          conseillersante@meilleurtaux.com" style="text-decoration: none; color:#008D93">
+                                          conseillersante@meilleurtaux.com</a>
+                                      </td>
+                                    </tr>
+                                </table>
+
+                                
+                             
+
+                                <table class="body" border="0" cellspacing="0" cellpadding="0" bgcolor="#F2F5FF" style="width:100%; background-color: #F2F5FF; padding-top: 60px;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center">
+                                                <table class="container" width="600" border="0" cellspacing="0" cellpadding="0" style="width:600px; margin: 0 auto; color:#000000; font-family: Poppins, Verdana, Arial 'Helvetica Neue', Helvetica, sans-serif; font-size:16px;">
+                                                   <tr>
+                                                       <td style="width: 100%; background: linear-gradient(269.6deg, #008D93 -44.95%, #0AD6E0 113%);" align="center">
+                                                            
+                                                            <table style="width: 80%;">
+                                                                <tr style="width: 100%;margin: 0 auto;">
+                                                                    <td style="padding: 30px;">
+                                                                        <img src="https://afimedias.dilogis.pro/emailing/MTXS/img/location.png" alt="" srcset="" width="50px">
+                                                                    </td>
+                                                                    <td style="font-size: 16px;color: white;">
+                                                                        <p style="margin: 0;"> Meilleurtaux Sant&eacute;</p>
+                                                                        <p style="margin: 0;"> 12 rue du Bois Guillaume</p>
+                                                                        <p style="margin: 0;"> 91055 EVRY-COURCOURONNES CEDEX</p>
+                                                                    </td>
+                                                                </tr>
+                                                               
+                                                            </table>
+                                                        </td>
+                                                   </tr>
+                                                  <tr>
+                                                        <td style="width: 100%;padding-top: 20px;" bgcolor="#F6F7FB" align="center">           
+                                                            <table style="width: 80%;">
+                                                                <tr style="width: 100%;margin: 0 auto;">
+                                                                    <td style="font-size: 25px;line-height: 30px;text-align: center;color: #4F4F4F;"> 
+                                                                        Retrouvez nous aussi ici :
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="width: 100%;margin: 0 auto;">
+                                                                    <td style="font-size: 23px;line-height: 30px;text-align: center;color: #4F4F4F; padding-top: 32px;margin: 0 auto;"> 
+                                                                        <table style="width: 30%;margin: 0 auto;">
+                                                                            <tr>
+                                                                                <td>
+                                                                                <a href="https://fr.linkedin.com/company/afi-assurances" target="_blank"><img src="https://afimedias.dilogis.pro/emailing/MTXS/img/lnk.png" alt=""></a></td>
+                                                                                <td>
+                                                                                <a href="https://twitter.com/Meilleurtauxcom" target="_blank"><img src="https://afimedias.dilogis.pro/emailing/MTXS/img/tw.png" alt=""></a></td>
+                                                                                <td>
+                                                                                <a href="https://www.facebook.com/meilleurtaux/" target="_blank"><img src="https://afimedias.dilogis.pro/emailing/MTXS/img/fb.png" alt=""></a></td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="width: 100%;margin: 0 auto;">
+                                                                    <td style="font-size: 23px;line-height: 30px;text-align: center;color: #4F4F4F; padding-top: 20px;margin: 0 auto;padding-bottom: 20px;"> 
+                                                                        <table style="width: 30%;margin: 0 auto;">
+                                                                            <tr style="width: 100%;">
+                                                                                <td  style="width: 100%;border-bottom: 1px solid;">
+																				</td>
+																			</tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+															</table>
+                                                        </td>     
+                                                   </tr>
+                                                   <tr>
+                                                        <td style="width: 100%;padding: 30px;" bgcolor="#FFFFFF" align="center">
+                                                            <table>
+                                                                <tr >
+                                                                    <td style="font-size: 13px;line-height: 25px;text-align: center;color: #4F4F4F;">
+                                                                  Meilleurtaux Santé est une marque exploitée par AFI ASSURANCES SAS au capital de 10.000 € - Soci&eacute;t&eacute; de courtage d'assurances 404 414 583 RCS Evry <br> N°ORIAS 07 027 969 - orias.fr</td>    
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="font-size: 13px;line-height: 25px;text-align: center;color: #4F4F4F;    padding-top: 30px;padding-bottom: 20px;">
+                                                                        On vous explique toutes nos mentions l&eacute;gales <a href="https://www.meilleurtaux.com/a-propos-de-meilleurtaux/mentions-legales.html">ici</a>
+                                                                    </td>   
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="font-size: 13px;line-height: 25px;text-align: center;color: #4F4F4F;">
+                                                                        Vous ne souhaitez plus recevoir nos communications ? Aucun probl&egrave;me ! 
+                                                                    </td>   
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="font-size: 13px;line-height: 25px;text-align: center;color: #4F4F4F;">
+                                                                        On comprend que votre temps est pr&eacute;cieux : il vous suffit de cliquer <a href="">ici</a>.
+                                                                    </td>   
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                   </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #d6d6d6;">
+        <tbody>
+            <tr>
+                <td height="50">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
